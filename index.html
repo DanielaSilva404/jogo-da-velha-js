@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Jogo da Velha</title>
+</head>
+<body>
+
+  <!-- Tela Inicial -->
+  <div id="tela-inicial">
+    <h1>Jogo da Velha</h1>
+    <input type="text" id="jogador1" placeholder="Nome do Jogador 1">
+    <input type="text" id="jogador2" placeholder="Nome do Jogador 2">
+    <button onclick="iniciarJogo()">Começar</button>
+  </div>
+
+  <!-- Tela do Jogo -->
+  <div id="tela-jogo" style="display: none; position: relative;">
+    <div id="vez-jogador"></div>
+
+    <div class="board" data-board>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+  </div>
+
+  <!-- Mensagem de vitória -->
+  <div class="winning-message" data-winning-message>
+    <p class="winning-message-text" data-winning-message-text>X Venceu!</p>
+    <button class="winning-message-button" data-restart-button>Reiniciar!</button>
+  </div>
+
+  <script src="./scripts.js"></script>
+</body>
+</html>
