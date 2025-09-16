@@ -8,7 +8,7 @@ Um jogo da velha interativo feito com HTML, CSS e JavaScript puro. Dois jogadore
 
 O jogo está hospedado no Netlify e pode ser acessado por qualquer dispositivo — celular, tablet ou computador:
 
-👉 [Clique aqui para jogar](https://jogo-da-velha-js.netlify.app)
+👉 [Clique aqui para jogar]https://jogo-da-velha-net.netlify.app/
 
 ---
 
